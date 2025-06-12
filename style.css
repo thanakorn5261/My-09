@@ -1,0 +1,130 @@
+/* General Body Styling */
+body {
+    font-family: 'Arial', sans-serif; /* Mengatur jenis font */
+    margin: 0; /* Menghilangkan margin default browser */
+    padding: 0; /* Menghilangkan padding default browser */
+    line-height: 1.6; /* Mengatur tinggi baris untuk keterbacaan */
+    color: #333; /* Mengatur warna teks default */
+    background-color: #f4f4f4; /* Warna latar belakang halaman */
+}
+
+/* Header Styling */
+header {
+    background: #333; /* Warna latar belakang header */
+    color: #fff; /* Warna teks di header */
+    padding: 1rem 0; /* Padding atas dan bawah */
+    text-align: center; /* Teks di tengah */
+    box-shadow: 0 2px 5px rgba(0,0,0,0.2); /* Efek bayangan */
+}
+
+header h1 {
+    margin: 0; /* Menghilangkan margin default pada h1 */
+    font-size: 2.5rem; /* Ukuran font judul */
+}
+
+/* Navigation Styling */
+nav ul {
+    list-style: none; /* Menghilangkan bullet point dari daftar */
+    padding: 0; /* Menghilangkan padding default pada ul */
+    margin: 0; /* Menghilangkan margin default pada ul */
+    display: flex; /* Membuat item navigasi sejajar */
+    justify-content: center; /* Memposisikan item navigasi di tengah */
+}
+
+nav ul li {
+    margin: 0 15px; /* Margin antara setiap item navigasi */
+}
+
+nav a {
+    color: #fff; /* Warna teks tautan */
+    text-decoration: none; /* Menghilangkan garis bawah tautan */
+    font-weight: bold; /* Teks tebal */
+    transition: color 0.3s ease; /* Efek transisi saat hover */
+}
+
+nav a:hover {
+    color: #00bcd4; /* Warna tautan saat di-hover */
+}
+
+/* Main Content Styling */
+main {
+    padding: 20px; /* Padding di sekitar konten utama */
+    max-width: 1000px; /* Lebar maksimum konten utama */
+    margin: 20px auto; /* Margin atas/bawah dan tengah secara horizontal */
+    background: #fff; /* Warna latar belakang konten utama */
+    border-radius: 8px; /* Sudut membulat */
+    box-shadow: 0 0 10px rgba(0,0,0,0.1); /* Efek bayangan */
+}
+
+/* Section Styling */
+section {
+    margin-bottom: 40px; /* Margin bawah setiap bagian */
+    padding: 30px; /* Padding di dalam setiap bagian */
+    border: 1px solid #eee; /* Garis tepi tipis */
+    border-radius: 8px; /* Sudut membulat */
+    background-color: #fff; /* Warna latar belakang bagian */
+    box-shadow: 0 2px 5px rgba(0,0,0,0.05); /* Efek bayangan ringan */
+}
+
+section h2 {
+    color: #333; /* Warna judul bagian */
+    border-bottom: 2px solid #00bcd4; /* Garis bawah pada judul */
+    padding-bottom: 10px; /* Padding bawah judul */
+    margin-bottom: 20px; /* Margin bawah judul */
+}
+
+/* Image Styling */
+img {
+    max-width: 100%; /* Memastikan gambar tidak melebihi lebar kontainer */
+    height: auto; /* Mempertahankan rasio aspek gambar */
+    display: block; /* Membuat gambar menjadi elemen blok */
+    margin: 20px auto; /* Margin atas/bawah dan tengah secara horizontal */
+    border-radius: 5px; /* Sudut gambar membulat */
+}
+
+/* Form Styling */
+form label {
+    display: block; /* Label menjadi blok agar berada di baris baru */
+    margin-bottom: 8px; /* Margin bawah label */
+    font-weight: bold; /* Teks label tebal */
+}
+
+form input[type="text"],
+form input[type="email"],
+form textarea {
+    width: calc(100% - 22px); /* Lebar input, dikurangi padding dan border */
+    padding: 10px; /* Padding di dalam input */
+    margin-bottom: 15px; /* Margin bawah input */
+    border: 1px solid #ccc; /* Garis tepi input */
+    border-radius: 5px; /* Sudut input membulat */
+    font-size: 1rem; /* Ukuran font input */
+}
+
+form textarea {
+    resize: vertical; /* Mengizinkan textarea untuk diubah ukurannya secara vertikal */
+}
+
+form input[type="submit"] {
+    background-color: #00bcd4; /* Warna latar belakang tombol submit */
+    color: white; /* Warna teks tombol submit */
+    padding: 12px 20px; /* Padding tombol */
+    border: none; /* Menghilangkan garis tepi tombol */
+    border-radius: 5px; /* Sudut tombol membulat */
+    cursor: pointer; /* Mengubah kursor menjadi pointer saat di-hover */
+    font-size: 1.1rem; /* Ukuran font tombol */
+    transition: background-color 0.3s ease; /* Efek transisi saat hover */
+}
+
+form input[type="submit"]:hover {
+    background-color: #0097a7; /* Warna tombol saat di-hover */
+}
+
+/* Footer Styling */
+footer {
+    text-align: center; /* Teks di tengah */
+    padding: 20px; /* Padding footer */
+    background: #333; /* Warna latar belakang footer */
+    color: #fff; /* Warna teks di footer */
+    margin-top: 40px; /* Margin atas footer */
+    box-shadow: 0 -2px 5px rgba(0,0,0,0.2); /* Efek bayangan */
+}
